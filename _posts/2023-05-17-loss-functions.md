@@ -10,7 +10,7 @@ $H(x)=-\sum\limits_{i}X_{i}\log(p(x_{i}))$
 It looks complicated but hopefully I'll be able to explain what's happening. We want to compare the actual classifier to the predicted classifier and this formula allows that to happen.
 But because classifiers are just words, we need to encode them somehow so that we can use them. A one-hot encoding scheme is used on the *known* images. Here's an example for a model for classifying cats:
 
-![](/images/tiger.jpg "Tiger")
+![](/images/Tiger.jpg "Tiger")
 
 | Tiger | Lion |
 |-|-|
